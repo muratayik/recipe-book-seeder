@@ -4,20 +4,20 @@ This application is created to seed meal data to meal planner database.
 
 ## Steps
 
-1. Create a postgresql database in local or remote.
+1. Create a postgresql database in local or remote.  
    For local installation https://www.postgresql.org/download/  
-   For cloud https://aws.amazon.com/rds/postgresql/  
+   For cloud https://aws.amazon.com/rds/postgresql/
    <br/>
 
-2. Fill .env file in root level with database information.
-   DB_HOST=db_location (localhost for local installation)
-   DB_PORT=db_port (by default 5432)
-   DB_USERNAME=db_username
-   DB_PASSWORD=db_password
+2. Fill .env file in root level with database information.  
+   DB_HOST=db_location (localhost for local installation)  
+   DB_PORT=db_port (by default 5432)  
+   DB_USERNAME=db_username  
+   DB_PASSWORD=db_password  
    DB_DATABASE=database_name
    <br/>
 3. Create tables.
-   All DDL information can be found in the file "ddl_scripts.txt" in root of project.
+   All DDL information can be found in the file "ddl_scripts.txt" in root of project.  
    Directly running the ddl must create all needed tables. A GUI like [pgAdmin](https://www.pgadmin.org/) can be used to run ddl script.
    <br/>
 
@@ -27,10 +27,10 @@ This application is created to seed meal data to meal planner database.
 5. Run project via `npm run start`
    <br/>
 
-6. After installation is completed, data must be present in the tables below;
-   a. category
-   b. meal
-   c. ingredient
+6. After installation is completed, data must be present in the tables below;  
+   a. category  
+   b. meal  
+   c. ingredient  
    d. instruction
 
 ### Notes

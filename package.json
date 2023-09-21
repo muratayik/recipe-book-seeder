@@ -1,0 +1,35 @@
+{
+  "name": "meal-planner-seeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratayik/meal-planner-seeder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muratayik/meal-planner-seeder/issues"
+  },
+  "homepage": "https://github.com/muratayik/meal-planner-seeder#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "@types/node": "^20.6.3",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

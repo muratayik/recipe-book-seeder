@@ -1,0 +1,49 @@
+CREATE TABLE account
+(
+    id       SERIAL PRIMARY KEY,
+    email    varchar(255),
+	username varchar(255),
+    password varchar(255),
+    role     varchar(255),
+);
+
+CREATE TABLE category
+(
+    id       SERIAL PRIMARY KEY,
+    name        varchar(255),
+	image_url   varchar(255),
+    description TEXT
+);
+
+CREATE TABLE meal
+(
+    id       SERIAL PRIMARY KEY,
+    name        varchar(255),
+	image_url   varchar(255),
+	youtube_url  varchar(255),
+	source_url   varchar(255),
+	category_id INTEGER
+);
+
+CREATE TABLE ingredient
+(
+    id       SERIAL PRIMARY KEY,
+    name     varchar(255),
+	amount   varchar(255),
+	meal_id  INTEGER
+);
+
+CREATE TABLE instruction
+(
+    id       SERIAL PRIMARY KEY,
+    sequence    INTEGER,
+    step     TEXT,
+	meal_id  INTEGER
+);
+
+CREATE TABLE favorite
+(
+    id       SERIAL PRIMARY KEY,
+	user_id INTEGER,
+	meal_id INTEGER
+);

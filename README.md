@@ -5,8 +5,8 @@ This application is created to seed meal data to meal planner database.
 ## Steps
 
 1. Create a postgresql database in local or remote.
-   For local installation https://www.postgresql.org/download/
-   For cloud https://aws.amazon.com/rds/postgresql/
+   For local installation https://www.postgresql.org/download/  
+   For cloud https://aws.amazon.com/rds/postgresql/  
    <br/>
 
 2. Fill .env file in root level with database information.

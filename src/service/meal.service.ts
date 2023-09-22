@@ -59,6 +59,7 @@ const insertMealToDatabase = async (
   const { name, imageUrl, youtubeUrl, sourceUrl, category } = mealRecord;
   const newMeal = new Meal();
   newMeal.name = name;
+  newMeal.public_id = convertNameToLatin(name);
   newMeal.image_url = imageUrl;
   newMeal.youtube_url = youtubeUrl;
   newMeal.source_url = sourceUrl;
@@ -96,4 +97,22 @@ const insertInstructionsToDatabase = async (
     await instructionRepository.save(newInstructions);
     index++;
   }
+};
+
+const convertNameToLatin = (name: string) => {
+  const alphabetAndDash = "abcdefghijklmnopqrstuvwxyz-";
+
+  const result: any = [];
+  name
+    .toLowerCase()
+    .split("")
+    .forEach((c) => {
+      if (alphabetAndDash.includes(c)) {
+        result.push(c);
+      } else if (c === " ") {
+        result.push("-");
+      }
+    });
+
+  return result.join("").replace("--", "-");
 };

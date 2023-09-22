@@ -6,6 +6,9 @@ export class Category {
   id: number;
 
   @Column()
+  public_id: string;
+
+  @Column()
   name: string;
 
   @Column()

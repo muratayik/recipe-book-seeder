@@ -6,6 +6,9 @@ export class Meal {
   id: number;
 
   @Column()
+  public_id: string;
+
+  @Column()
   name: string;
 
   @Column()

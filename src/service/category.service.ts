@@ -38,6 +38,7 @@ const createCategory = async (
   const { strCategory, strCategoryThumb, strCategoryDescription } = category;
 
   const newCategory = new Category();
+  newCategory.public_id = strCategory.toLowerCase();
   newCategory.name = strCategory;
   newCategory.image_url = strCategoryThumb;
   newCategory.description = strCategoryDescription;

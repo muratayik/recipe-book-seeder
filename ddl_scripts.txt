@@ -46,6 +46,6 @@ CREATE TABLE instruction
 CREATE TABLE favorite
 (
     id       SERIAL PRIMARY KEY,
-	user_id INTEGER,
-	meal_id INTEGER
+	email varchar(255),
+	meal_id varchar(255)
 );

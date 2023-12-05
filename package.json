@@ -1,5 +1,5 @@
 {
-  "name": "meal-planner-seeder",
+  "name": "recipe-book-seeder",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muratayik/meal-planner-seeder.git"
+    "url": "git+https://github.com/muratayik/recipe-book-seeder.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/muratayik/meal-planner-seeder/issues"
+    "url": "https://github.com/muratayik/recipe-book-seeder/issues"
   },
-  "homepage": "https://github.com/muratayik/meal-planner-seeder#readme",
+  "homepage": "https://github.com/muratayik/recipe-book-seeder#readme",
   "dependencies": {
     "dotenv": "^16.3.1",
     "pg": "^8.11.3",

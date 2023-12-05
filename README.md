@@ -1,6 +1,6 @@
-# Meal Planner Seeder :seedling:
+# Recipe Book Seeder :seedling:
 
-This application is created to seed meal data to meal planner database.
+This application is created to seed meal data to recipe book database.
 
 ## Steps
 
@@ -37,4 +37,4 @@ This application is created to seed meal data to meal planner database.
 
 1. All the data inside json files are taken from [Meal DB](https://www.themealdb.com/api.php). Original content can be found in original website.
 
-2. ddl_scripts.txt contains favorite and account tables. These tables are not related to seeder. But meal-planner-backend is using these tables.
+2. ddl_scripts.txt contains 'favorite' and 'account' tables. These tables are not related to seeder. But recipe-book-backend is using these tables.

@@ -1,7 +1,8 @@
 # Recipe Book Seeder :seedling:
 
 This application is created to seed meal data to recipe book database.
-To see the live demo you can visit s3 hosting url [here.](http://recipe-book-angular.s3-website.eu-central-1.amazonaws.com/)
+To see the live Angular demo you can visit s3 hosting url [here.](http://recipe-book-angular.s3-website.eu-central-1.amazonaws.com/)
+To see the live React demo you can visit s3 hosting url [here.](http://recipe-book-react-csr.s3-website.eu-central-1.amazonaws.com/)
 
 ## Steps
 
